@@ -11,6 +11,7 @@ a personal portfolio page
 > [!NOTE]
 > This is a project that isongoing and will be improved as time goes by
 
+The animations used are from the site ![animate.css](https://animate.style/)
 ## Challenges
 
 ## Development
