@@ -56,3 +56,21 @@ h2 span{
     display: flex;
     gap: 15px;
 }
+
+#work .tools{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.tools div{
+    text-align: center;
+    border: 1px solid;
+}
+
+.tools div img{
+    max-width: 200px;
+    min-width: 100px;
+    height: auto;
+}
