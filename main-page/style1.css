@@ -3,4 +3,23 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*POSITIONING*/
+
+.headings, ul{
+    border: 1px solid;
+    display: flex;
+}
+
+.headings{
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    flex-direction: row-reverse;
+}
+
+ul{
+    gap: 25px;
 }
