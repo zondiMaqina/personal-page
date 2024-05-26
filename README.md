@@ -12,7 +12,12 @@ a personal portfolio page
 > This is a project that isongoing and will be improved as time goes by
 
 The animations used are from the site [animate.css](https://animate.style/)
+
 ## Challenges
+### CSS
+1. How to use the ```minmax()``` function
+2. How to add color to images
+3. How to user border animation on element
 
 ## Development
 
