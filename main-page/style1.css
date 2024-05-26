@@ -41,7 +41,6 @@ h2 span{
     min-width: 250px;
 }
 
-
 .images p{
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +57,6 @@ h2 span{
 }
 
 #work .tools{
-    border: 1px solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
@@ -66,11 +64,16 @@ h2 span{
 
 .tools div{
     text-align: center;
-    border: 1px solid;
 }
 
 .tools div img{
     max-width: 200px;
     min-width: 100px;
     height: auto;
+}
+
+#showcase{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-evenly;
 }
