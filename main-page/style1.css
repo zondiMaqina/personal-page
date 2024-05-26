@@ -7,9 +7,12 @@
     list-style-type: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /*POSITIONING*/
 
-.headings, ul{
+.headings, .icons{
     display: flex;
 }
 
@@ -24,7 +27,6 @@ ul{
 }
 
 #introduction header{
-    border: 1px solid;
     display: flex;
     width: 100%;
     align-items: center;
@@ -74,6 +76,33 @@ h2 span{
 
 #showcase{
     display: flex;
-    border: 1px solid;
     justify-content: space-evenly;
+}
+
+footer{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    align-self: flex-end;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.social img{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.page-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+footer div:last-of-type{
+    text-align: center;
 }
