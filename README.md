@@ -26,3 +26,10 @@ The animations used are from the site [animate.css](https://animate.style/)
 ```
 <element width="10" height="10"></element> # no need to use `px`
 ```
+
+- Using these properties below help with responsiveness 
+
+```
+max-width: px;
+min-width: px;
+```
