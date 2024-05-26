@@ -10,7 +10,6 @@
 /*POSITIONING*/
 
 .headings, ul{
-    border: 1px solid;
     display: flex;
 }
 
@@ -22,4 +21,38 @@
 
 ul{
     gap: 25px;
+}
+
+#introduction header{
+    border: 1px solid;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+h2 span{
+    font-weight: normal;
+}
+
+#introduction header .info{
+    max-width: 700px;
+    min-width: 250px;
+}
+
+
+.images p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 650px;
+    min-width: 250px;
+}
+
+.stars{
+    width: 520px;
+    align-self: self-end;
+    display: flex;
+    gap: 15px;
 }
