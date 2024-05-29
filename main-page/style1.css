@@ -80,7 +80,6 @@ h2 span{
 }
 
 footer{
-    border: 1px solid;
     display: flex;
     flex-direction: column;
 }
@@ -103,6 +102,6 @@ footer{
     padding: 10px 20px;
 }
 
-footer div:last-of-type{
-    text-align: center;
+footer div h3{
+    margin-bottom: 5px;
 }
