@@ -20,6 +20,7 @@ html{
     justify-content: space-between;
     padding: 10px 10px 10px 10px;
     flex-direction: row-reverse;
+    border: 1px solid;
 }
 
 ul{
@@ -31,7 +32,9 @@ ul{
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 5px 20px;
+    border: 1px solid;
+    min-height: 300px;
 }
 
 h2 span{
