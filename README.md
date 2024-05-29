@@ -19,6 +19,7 @@ The animations used are from the site [animate.css](https://animate.style/)
 2. How to add color to images
 3. How to user border animation on element
 
+- How to make grid items responsive to different viewports
 ## Development
 
 - I learnt that when giving elements dimension in html you do not use literal `px`
