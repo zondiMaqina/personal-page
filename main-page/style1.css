@@ -10,3 +10,116 @@
 html{
     scroll-behavior: smooth;
 }
+
+.images, img{
+    border: 1px solid;
+}
+
+img{
+    display: inline-block
+}
+
+/*POSITIONING*/
+.headings, .icons, .info, .bullets{
+    display: flex;
+}
+
+.headings{
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    flex-direction: row-reverse;
+    border: 1px solid;
+    width: 100%;
+}
+
+ul{
+    gap: 25px;
+}
+
+.info h2{
+    max-width: 650px;
+}
+
+.info h2 a{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.info{
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.bullets{
+    justify-content: center;
+}
+
+h2 span{
+    font-weight: normal;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+img[alt="github logo"]{
+    margin-left: 10px;
+}
+
+.images p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-width: 300px;
+    gap: 10px;
+}
+
+.stars{
+    width: 520px;
+    align-self: self-end;
+    display: flex;
+    gap: 15px;
+}
+
+.tools div img{
+    max-width: 200px;
+    min-width: 100px;
+}
+
+#showcase{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    align-self: flex-end;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.social img{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.page-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+footer div h3{
+    margin-bottom: 5px;
+}
+
